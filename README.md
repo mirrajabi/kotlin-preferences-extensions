@@ -1,4 +1,7 @@
 # kotlin-preferences-extensions
+
+[![](https://jitpack.io/v/mirrajabi/kotlin-preferences-extensions.svg)](https://jitpack.io/#mirrajabi/kotlin-preferences-extensions)
+
 A set of Rx Extensions to get/set values of SharedPreferences in a super simple way
 
 # Usage
