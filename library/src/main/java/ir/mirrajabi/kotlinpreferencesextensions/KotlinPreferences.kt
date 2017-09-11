@@ -5,7 +5,7 @@ import android.content.SharedPreferences
 
 object KotlinPreferences {
     var sharedPreferences: SharedPreferences? = null
-    fun init(context: Context){
-        sharedPreferences = context.getSharedPreferences(context.packageName, Context.MODE_PRIVATE)
+    fun init(context: Context, preferencesName: String = context.packageName){
+        sharedPreferences = context.getSharedPreferences(preferencesName, Context.MODE_PRIVATE)
     }
 }
