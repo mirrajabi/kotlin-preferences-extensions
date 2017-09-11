@@ -18,7 +18,7 @@ Then add the dependency in modules build.gradle file
 
 ```gradle
 dependencies {
-    compile 'com.github.mirrajabi:kotlin-preferences-extensions:1.0'
+    compile 'com.github.mirrajabi:kotlin-preferences-extensions:1.0.1'
 }
 ```
 
