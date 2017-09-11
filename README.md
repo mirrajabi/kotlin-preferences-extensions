@@ -28,6 +28,8 @@ Now initialize it in your application or activity etc...
 override fun onCreate() {
         super.onCreate()
         KotlinPreferences.init(this)
+        // Or with your custom preference name
+        KotlinPreferences.init(this, "custom_pref")
     }
 ```
 Then use these extensions on the `key` strings like below samples
